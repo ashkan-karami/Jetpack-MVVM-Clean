@@ -1,4 +1,4 @@
-package com.sample.jetpack_mvvm_clean
+package com.sample.data
 
 import org.junit.Test
 
@@ -9,7 +9,7 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class ExampleUnitTestModule {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
