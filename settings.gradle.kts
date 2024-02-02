@@ -16,3 +16,5 @@ dependencyResolutionManagement {
 rootProject.name = "Jetpack-MVVM-Clean"
 include(":app")
 include(":data")
+include(":common:data")
+include(":common:core")
