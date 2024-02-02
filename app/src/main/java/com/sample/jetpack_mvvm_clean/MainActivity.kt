@@ -7,6 +7,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.sample.jetpack_mvvm_clean.ui.navigation.Navigation
+import com.sample.jetpack_mvvm_clean.ui.theme.JetpackMVVMCleanTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -14,7 +15,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Navigation()
+            JetpackMVVMCleanTheme {
+                Navigation()
+            }
         }
     }
 }

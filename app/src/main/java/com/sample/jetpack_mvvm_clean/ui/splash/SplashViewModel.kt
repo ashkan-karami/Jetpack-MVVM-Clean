@@ -11,6 +11,6 @@ class SplashViewModel @Inject constructor(
 ): ViewModel() {
 
     fun check(){
-        Log.i("aaaaaaaaaaa","view model check hit!")
+        print("view model check hit!")
     }
 }
